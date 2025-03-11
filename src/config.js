@@ -5,7 +5,7 @@ export const allowedUserSub = process.env.REACT_APP_ALLOWED_USER_SUB;
 export const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID;
 
 let finalUrl = apiUrl
-if (apiPort !== null) {
+if (apiPort !== undefined) {
     finalUrl = `${apiUrl}:${apiPort}`;
 }
 
