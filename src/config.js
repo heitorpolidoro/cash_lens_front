@@ -8,6 +8,8 @@ let finalUrl = apiUrl
 if (apiPort !== null) {
     finalUrl = `${apiUrl}:${apiPort}`;
 }
+
+console.info(`Final URL = ${finalUrl}`)
 export const baseUrl = finalUrl;
 
 
