@@ -1,0 +1,38 @@
+.file-upload-section { /* Add a container for the file upload elements */
+    margin-top: 20px; /* Adjust the margin value as needed */
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.loading-indicator {
+    display: inline-block; /* Or block, depending on your layout */
+    margin-left: 10px;  /* Adjust spacing as needed */
+    animation: spin 1s linear infinite; /* Add a spinning animation */
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Styling for upload message */
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+/* Basic styling for file upload area */
+.file-upload-section {
+    margin-bottom: 20px; /* Spacing between file input and messages */
+}
+
+.file-name {
+    margin-left: 10px;
+}
+
+.upload-button {
+    margin-left: 10px;
+}
